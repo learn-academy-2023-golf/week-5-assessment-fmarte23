@@ -6,7 +6,7 @@ The LEARN program focuses on readying our students for a career in technology. T
 
 Deploying a project is an exciting, yet often challenging process. There are usually small errors that cause deployments to fail or cause bugs in production. One solution to this is to deploy early and update the deployment as the code evolves.
 
-Submit the link to your deployed portfolio site: https://github.com/fmarte23/hey-world-github-deploy
+Submit the link to your deployed portfolio site: https://fmarte23.github.io/hey-world-github-deploy/
 
 Note: I followed Elyse's instructions and re-watched the video to deploy my site, but for some reason it keeps showing my Jumpstart project. I will reach out to someone for help regarding this. 
 
