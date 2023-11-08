@@ -10,7 +10,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 Your answer: Hash is a collection of key and value pairs. Array is an ordered collection of objects. 
 
-Researched answer: A Ruby hash is a dictionary-like container for unique keys and their corresponding values. We can implement operations on a hash using CRUD. Both hash and arrays can be nested. 
+Researched answer: A Ruby hash is a container for unique keys and their corresponding values similar as the conatiner of words in a dictionary. We can implement operations on a hash using CRUD. Both hash and arrays can be nested. Moreover, arrays and hashes in Ruby serve different purposes based on how data is organized and accessed. Arrays are ordered collections with indexed elements, while hashes are collections of key-value pairs without a specific order. It is important to note however, both structures support iteration and the mixing of various data types. The choice between using an array or a hash depends on the nature of the data you want to store and access in your program.
 
 2. What does it mean to implement a TTD workflow?
 
@@ -22,11 +22,11 @@ Researched answer: Test-driven development (TDD) is a software development pract
 
 Your answer: Super is used to call on the initialize method in the superclass. 
 
-Researched answer: The super method is used in the subclass. After invoking super the subclass will have access to the instance variables within that method. Instance variables are not inherited since instance variables are local to a specific instance of a class. Via super, you are allowed to borrow instance variables from the parent.
+Researched answer: This method is used in the class to call on or invoke the super so that we may be able to access the instance variables within that method. By using super,  we can borrow these instance variables and further make modifications to the behavior of a method defined in its superclass.
 
 4. STRETCH: What is the difference between inheritance in JavaScript and inheritance in Ruby?
 
-Researched answer: Inheritance is a way of reusing code and creating new classes (types of objects) based on existing ones. In Ruby, inheritance allows a class (child class) to inherit (or acquire) the properties and methods of another class (parent class). This helps reduce code duplication and makes it easier to maintain code.
+Researched answer: Inheritance is a way of recycling code and creating new classes  or types of objects based on existing ones. In Ruby, inheritance allows a class (child class) to inherit or acquire the properties and methods of another class (parent class). JavaScript on the other hand uses prototypal inheritance where objects inherit properties and methods from other objects (prototypes). This helps reduce code duplication and makes it easier to maintain code. JavaScript and Ruby inheritance also have different mechanisms and syntax to support inheritance.  
 
 ## Looking Ahead: Terms for Next Week
 

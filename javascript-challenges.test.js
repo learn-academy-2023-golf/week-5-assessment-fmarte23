@@ -44,6 +44,23 @@ function encodeString(input) {
   });
   
 
+  UPDATED:
+  
+  describe("encodeString", () => {
+    const secretCodeWord1= { "Lackadaisical" }
+    // Expected output: "L4ck4d41s1c4l"
+    const secretCodeWord2 = { "Gobbledygook" }
+    // Expected output: "G0bbl3dyg00l"
+    const secretCodeWord3 = { "Eccentric" }
+    // Expected output: "3cc3ntr1c"
+    it("takes in a string and returns a string with a coded message.", () => {
+        expect(encodeString(secretCodeWord1)).toBe("L4ck4d41s1c4l")
+        expect(encodeString(secretCodeWord2)).toBe("G0bbl3dyg00l")
+        expect(encodeString(secretCodeWord3)).toBe("3cc3ntr1c")
+    })
+  })
+  
+
 // const secretCodeWord1 = "Lackadaisical"
 // // Expected output: "L4ck4d41s1c4l"
 // const secretCodeWord2 = "Gobbledygook"
